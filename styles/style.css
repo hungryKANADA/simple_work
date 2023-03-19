@@ -1,0 +1,93 @@
+body {
+    background-color: peru;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #8B0000;
+    text-align: center;
+    text-shadow: 2px 2px #FFD700;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #8B0000;
+    text-align: center;
+    text-shadow: 2px 2px #FFD700;
+  }
+  
+  /* Стилизация навигации */
+  nav {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #8B0000;
+    text-decoration: none;
+    text-shadow: 2px 2px #FFD700;
+  }
+  
+  nav a:hover {
+    color: #FFD700;
+    text-shadow: none;
+  }
+  
+  /* Стилизация основного содержимого */
+  main {
+    margin: 20px;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #8B0000;
+    line-height: 1.5;
+  }
+  
+  ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+  }
+  
+  /* Стилизация изображений */
+  figure {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px #8B0000;
+  }
+  button {
+    margin: 0 auto;
+    display: block;
+  }
